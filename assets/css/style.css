@@ -202,6 +202,7 @@ ul#about li {
 
 .subscribe .submit:hover {
     color: #3a3a3a;
+    font-weight: bold;
 }
 
 footer {

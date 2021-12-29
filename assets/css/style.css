@@ -244,3 +244,6 @@ footer {
     border: #f1c40f;
     border: 2px;
 }
+#history-form .submit:hover{
+    color: #3a3a3a;
+}

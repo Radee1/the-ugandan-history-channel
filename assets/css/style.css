@@ -218,3 +218,20 @@ footer {
     background-color: #f1c40f;
     text-align: center;
 }
+/*history page*/
+#history-form{
+    margin: 0;
+    padding: 2;
+    border-radius: 2px;
+    background: #3a3a3a;
+}
+.center{
+    text-align: center;
+}
+#history-form input, textarea{
+    width: 75%;
+    margin: 1%;
+    padding: 2%;
+    border: #f1c40f;
+    border: 2px;
+}

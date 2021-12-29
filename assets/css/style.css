@@ -247,3 +247,38 @@ footer {
 #history-form .submit:hover{
     color: #3a3a3a;
 }
+/*media queries*/
+@media (max-width: 750px){
+    header #trademark,
+    header nav,
+    header nav li,
+    #cases .case,
+    article#major-col,
+    aside#side-bar{
+        float: none;
+        text-align: center;
+        width: 100%;
+    }
+    header{
+        padding-bottom: 20px;
+    }
+    main h1{
+        margin-top: 40px;
+    }
+}
+@media screen and (max-width:600px){
+    body{
+        font-size: 12px;
+    }
+    #mobilemenu{
+        display: inline;
+    }
+    nav{
+        display: none;
+    }
+    table, tbody, td, tr{
+        display: block;
+    }
+
+
+}

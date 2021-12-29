@@ -1,21 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
 *{
-    margin: 0;
-    border: none;
-    padding: 0;
+   margin: 0;
+   border: none; 
+   padding: 0;
 }
 body{
-    font-family: poppins, sans-serif;
+    font-family: Poppins,sans-serif;
     font-weight: 300;
     color: #3a3a3a;
-    
 }
-/* Headings and logo*/
-h1, h2{
-    font-family: Poppins, sans-serif;
-    text-transform: uppercase;
-    letter-spacing: 4px;
-    color: #f1c40f;
-    
-}
-/* nav links*/

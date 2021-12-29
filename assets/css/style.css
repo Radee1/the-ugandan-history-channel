@@ -1,148 +1,177 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
-*{
-   margin: 0;
-   border: none; 
-   padding: 0;
+
+* {
+    margin: 0;
+    border: none;
+    padding: 0;
 }
-body{
-    font-family: Poppins,sans-serif;
+
+body {
+    font-family: Poppins, sans-serif;
     font-weight: 300;
     color: #3a3a3a;
     background-color: #fff;
 }
+
 /* headings and trademark*/
-h1, h2, h3{
-font-family: poppins, sans-serif;
-text-transform: uppercase;
-letter-spacing: 4px;
-color: #f1c40f;
+h1,
+h2,
+h3 {
+    font-family: poppins, sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    color: #f1c40f;
 }
-.vessel{
+
+.vessel {
     width: 80%;
     margin: auto;
     overflow: hidden;
 }
-ul{
+
+ul {
     margin: 0;
     padding: 0;
 }
-.submit{
-    height:38px;
+
+.submit {
+    height: 38px;
     background: #f1c40f;
     border: 0;
     padding-left: 20px;
     padding-right: 20px;
     color: #fff;
 }
-.grey{
+
+.grey {
     padding: 15px;
     background: #3a3a3a;
     color: #fff;
     margin-top: 10px;
     margin-bottom: 10px;
 }
-header{
+
+header {
     background: #3a3a3a;
     color: #fff;
     padding-top: 30px;
     min-height: 70px;
     border-bottom: #3a3a3a 3px solid;
 }
-header a{
+
+header a {
     color: #f1c40f;
     text-decoration: none;
     text-transform: uppercase;
     font-size: 16px;
 }
-header li{
+
+header li {
     float: left;
     display: inline;
     padding: 0 20px 0 20px;
 }
-header #trademark{
+
+header #trademark {
     float: left;
 }
-header #trademark h1{
-margin: 0;
+
+header #trademark h1 {
+    margin: 0;
 }
-header nav{
+
+header nav {
     float: right;
     margin-top: 10px;
 }
-header .current a{
+
+header .current a {
     color: #f1c40f;
     font-weight: bold;
 }
-header a:hover{
+
+header a:hover {
     color: #fff;
     font-weight: bold;
 }
+
 /* the main image section*/
-#main{
+#main {
     width: 100%;
     height: 600px;
     background: url('../images/kla.jpeg') no-repeat center center;
     color: #fff;
 }
-#main h1{
+
+#main h1 {
     margin-top: 100px;
     font-size: 55px;
     margin-bottom: 10px;
 }
-#main p{
+
+#main p {
     font-size: 20px;
     color: #3a3a3a;
     font-weight: bold;
 }
+
 /* the cases*/
-#cases{
+#cases {
     margin-top: 20px;
 }
-#cases .case1{
+
+#cases .case1 {
     float: left;
     text-align: right;
     width: 50%;
     padding: 0;
     box-sizing: border-box;
 }
-#cases .case2{
+
+#cases .case2 {
     float: right;
     text-align: right;
     width: 50%;
     padding: 0;
     box-sizing: border-box;
 }
-#cases .case1{
+
+#cases .case1 {
     background: url('../images/crane.jpg') no-repeat center center;
     background-color: #3a3a3a;
     background-size: cover;
     width: 100%;
     height: 300px;
 }
-#cases .case2{
+
+#cases .case2 {
     background: url('../images/monument.jpg') no-repeat center center;
     background-color: #3a3a3a;
     background-size: cover;
     width: 100%;
     height: 300px;
 }
-#cases p{
+
+#cases p {
     color: #3a3a3a;
     text-emphasis: bold;
     position: relative;
 }
+
 /*side bar*/
-aside#side-bar{
+aside#side-bar {
     float: right;
     width: 30%;
     margin-top: 10px;
 }
-aside#side-bar .subscribe{
+
+aside#side-bar .subscribe {
     width: 90%;
     padding: 5px;
 }
+
 /*major*/
-#major{
+#major {
     background: url('../images/exploring.jpeg');
     background-size: cover;
     background-position: center;
@@ -151,30 +180,34 @@ aside#side-bar .subscribe{
 }
 
 /*major-col*/
-article#major-col{
+article#major-col {
     float: left;
     width: 65%;
     height: 850px;
 }
 
 /*about list*/
-ul#about li{
+ul#about li {
     list-style: none;
     padding: 20px;
     border: 1px solid #3a3a3a;
     margin-bottom: 5px;
     background: #fff;
 }
-.subscribe input{
+
+.subscribe input {
     width: 100%;
     padding: 10px;
 }
 
-footer{
+.subscribe .submit:hover {
+    color: #3a3a3a;
+}
+
+footer {
     padding: 20px;
     margin-top: 0;
     color: #ffffff;
     background-color: #f1c40f;
     text-align: center;
 }
-

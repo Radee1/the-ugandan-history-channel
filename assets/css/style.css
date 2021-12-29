@@ -11,7 +11,7 @@ body{
     background-color: #fff;
 }
 /* headings and trademark*/
-h1, h2{
+h1, h2, h3{
 font-family: poppins, sans-serif;
 text-transform: uppercase;
 letter-spacing: 4px;
@@ -26,7 +26,7 @@ ul{
     margin: 0;
     padding: 0;
 }
-.button_1{
+.submit{
     height:38px;
     background: #f1c40f;
     border: 0;
@@ -34,7 +34,7 @@ ul{
     padding-right: 20px;
     color: #fff;
 }
-.dark{
+.grey{
     padding: 15px;
     background: #3a3a3a;
     color: #fff;
@@ -129,10 +129,50 @@ header a:hover{
     text-emphasis: bold;
     position: relative;
 }
+/*side bar*/
+aside#side-bar{
+    float: right;
+    width: 30%;
+    margin-top: 10px;
+}
+aside#side-bar .subscribe{
+    width: 90%;
+    padding: 5px;
+}
+/*major*/
+#major{
+    background: url('../images/exploring.jpeg');
+    background-size: cover;
+    background-position: center;
+    height: 900px;
+    margin-bottom: 0;
+}
+
+/*major-col*/
+article#major-col{
+    float: left;
+    width: 65%;
+    height: 850px;
+}
+
+/*about list*/
+ul#about li{
+    list-style: none;
+    padding: 20px;
+    border: 1px solid #3a3a3a;
+    margin-bottom: 5px;
+    background: #fff;
+}
+.subscribe input{
+    width: 100%;
+    padding: 10px;
+}
+
 footer{
     padding: 20px;
-    margin-top: 20px;
+    margin-top: 0;
     color: #ffffff;
     background-color: #f1c40f;
     text-align: center;
 }
+

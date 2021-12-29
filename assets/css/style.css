@@ -94,6 +94,9 @@ header a:hover {
     color: #fff;
     font-weight: bold;
 }
+.current{
+    color: #fff;
+}
 
 /* the main image section*/
 #main {
@@ -156,6 +159,9 @@ header a:hover {
     color: #3a3a3a;
     text-emphasis: bold;
     position: relative;
+}
+td{
+    padding: 10px;
 }
 
 /*side bar*/

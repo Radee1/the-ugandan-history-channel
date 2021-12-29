@@ -248,7 +248,7 @@ footer {
     color: #3a3a3a;
 }
 /*media queries*/
-@media (max-width: 750px){
+@media (max-width: 770px){
     header #trademark,
     header nav,
     header nav li,
@@ -274,11 +274,13 @@ footer {
         display: inline;
     }
     nav{
-        display: none;
+        display: inline;
     }
     table, tbody, td, tr{
         display: block;
     }
-
-
+    /*aside#aside-bar{
+        float: none;
+        display: inline;
+    }*/
 }

@@ -9,3 +9,10 @@ body{
     font-weight: 300;
     color: #3a3a3a;
 }
+/* heading and trademark*/
+h1{
+font-family: poppins, sans-serif;
+text-transform: uppercase;
+letter-spacing: 4px;
+color: #f1c40f;
+}

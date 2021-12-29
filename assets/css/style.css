@@ -129,3 +129,10 @@ header a:hover{
     text-emphasis: bold;
     position: relative;
 }
+footer{
+    padding: 20px;
+    margin-top: 20px;
+    color: #ffffff;
+    background-color: #f1c40f;
+    text-align: center;
+}

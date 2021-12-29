@@ -11,7 +11,7 @@ body{
     background-color: #fff;
 }
 /* headings and trademark*/
-h1{
+h1, h2{
 font-family: poppins, sans-serif;
 text-transform: uppercase;
 letter-spacing: 4px;
@@ -91,4 +91,41 @@ header a:hover{
 }
 #main p{
     font-size: 20px;
+}
+/* the cases*/
+#cases{
+    margin-top: 20px;
+}
+#cases .case1{
+    float: left;
+    text-align: right;
+    width: 50%;
+    padding: 0;
+    box-sizing: border-box;
+}
+#cases .case2{
+    float: right;
+    text-align: right;
+    width: 50%;
+    padding: 0;
+    box-sizing: border-box;
+}
+#cases .case1{
+    background: url('../images/crane.jpg') no-repeat center center;
+    background-color: #3a3a3a;
+    background-size: cover;
+    width: 100%;
+    height: 300px;
+}
+#cases .case2{
+    background: url('../images/monument.jpg') no-repeat center center;
+    background-color: #3a3a3a;
+    background-size: cover;
+    width: 100%;
+    height: 300px;
+}
+#cases p{
+    color: #ffffff;
+    text-emphasis: bold;
+    position: relative;
 }

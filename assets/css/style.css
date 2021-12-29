@@ -219,6 +219,15 @@ footer {
     text-align: center;
 }
 /*history page*/
+#history-main{
+    background: url('../images/history1.jpeg') no-repeat center center;
+    height: 600px;
+    width: 100%;
+    background-size: cover;
+}
+#history-main h1{
+    text-align: left center;
+}
 #history-form{
     margin: 0;
     padding: 2;

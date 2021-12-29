@@ -91,6 +91,8 @@ header a:hover{
 }
 #main p{
     font-size: 20px;
+    color: #3a3a3a;
+    font-weight: bold;
 }
 /* the cases*/
 #cases{
@@ -125,7 +127,7 @@ header a:hover{
     height: 300px;
 }
 #cases p{
-    color: #ffffff;
+    color: #3a3a3a;
     text-emphasis: bold;
     position: relative;
 }

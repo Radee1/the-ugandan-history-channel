@@ -9,17 +9,19 @@ TUHC is a website dedicated to keeping people educated about Uganda as a country
   * The entire navigation bar is responsive and is included on all three pages. It provides links to the Home page, About page, and History page. It is the same on each page to facilitate easy navigation. 
   * This section allows users to simply go from page to page across all devices without having to use the ‘back’ button to return to the previous page.
 
-  ![The navigation bar](https://github.com/Radee1/the-ugandan-history-channel/blob/main/assets/images/navbar.png "navigation bar")
-
-<img src="https://github.com/Radee1/the-ugandan-history-channel/blob/cfd2a66e95c908435b51d2baa8cb4f5f3b34781e/assets/images/navbar.png" alt="nav bar">
+  ![The navigation bar](assets/images/navbar.png)
 
 2. **The main Home Image**
 
   * The main Home image comprises an attractive photograph of Kampala city with text overlay to help the viewer   understand what this site is about and where it will be useful.
 
+  ![main home image](assets/images/Mainhomeimage.png)
+
 3. **The cases section**
 
  * The case section will allow the user to see some of the history of Uganda starting with the Uganda crested crane and the Uganda independence monument.  The case section contains two attractive photos and links that should encourage the user to connect to the About page and History page for more information.
+
+ ![case section](assets/images/casesection.png)
 
 4. **The footer**
 
@@ -117,19 +119,13 @@ It is not possible for us or anyone else to trace the random ID back to an indiv
 
 We want to tell you this so that we are being completely transparent about the data we collect and what we do with it.
 
-**Can I opt out?**
 
-Yes, you can. Since no personally identifiable information is being captured, we'd appreciate it if you let the script run; however if you are unhappy with the idea, simply run the following commands from the terminal window after creating the workspace, and this will remove the uptime script:
 
 ```
-pkill uptime.sh
-rm .vscode/uptime.sh
+
 ```
 
-**Anything more?**
-
-Yes! We'd strongly encourage you to look at the source code of the `uptime.sh` file so that you know what it's doing. As future software developers, it will be great practice to see how these shell scripts work.
 
 ---
 
-Happy coding!
+

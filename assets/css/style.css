@@ -26,7 +26,7 @@ h3 {
 .vessel {
     width: 80%;
     margin: auto;
-    overflow: hidden;
+    overflow: auto;
 }
 
 ul {

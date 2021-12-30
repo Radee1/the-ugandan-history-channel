@@ -94,7 +94,8 @@ header a:hover {
     color: #fff;
     font-weight: bold;
 }
-.current{
+
+.current {
     color: #fff;
 }
 
@@ -160,7 +161,8 @@ header a:hover {
     text-emphasis: bold;
     position: relative;
 }
-td{
+
+td {
     padding: 10px;
 }
 
@@ -201,6 +203,10 @@ ul#about li {
     background: #fff;
 }
 
+#about-form {
+    display: none;
+}
+
 .subscribe input {
     width: 100%;
     padding: 10px;
@@ -211,6 +217,19 @@ ul#about li {
     font-weight: bold;
 }
 
+.subscribe1 input {
+    width: 80%;
+    padding: 10px;
+}
+
+.submit1 {
+    width: 50px;
+    background: orangered;
+    color: #fff;
+    padding: 20px 20px;
+
+}
+
 footer {
     padding: 20px;
     margin-top: 0;
@@ -218,67 +237,110 @@ footer {
     background-color: #f1c40f;
     text-align: center;
 }
+
 /*history page*/
-#history-main{
+#history-main {
     background: url('../images/history1.jpeg') no-repeat center center;
     height: 600px;
     width: 100%;
     background-size: cover;
 }
-#history-main h1{
+
+#history-main h1 {
     text-align: left center;
 }
-#history-form{
+
+#history-form {
     margin: 0;
     padding: 2;
     border-radius: 2px;
     background: #3a3a3a;
 }
-.center{
+
+.center {
     text-align: center;
 }
-#history-form input, textarea{
+
+#history-form input,
+textarea {
     width: 75%;
     margin: 1%;
     padding: 2%;
     border: #f1c40f;
     border: 2px;
 }
-#history-form .submit:hover{
+
+#history-form .submit:hover {
     color: #3a3a3a;
 }
+
 /*media queries*/
-@media (max-width: 770px){
+@media (max-width: 770px) {
+
     header #trademark,
     header nav,
     header nav li,
     #cases .case,
     article#major-col,
-    aside#side-bar{
+    aside#side-bar {
         float: none;
         text-align: center;
         width: 100%;
     }
-    header{
+
+    header {
         padding-bottom: 20px;
     }
-    main h1{
+
+    main h1 {
         margin-top: 40px;
     }
+
+    #about-form {
+        display: inline;
+        text-align: center;
+        margin-left: 0px;
+        width: 100%;
+        border-radius: 2px;
+    }
+
+    .grey {
+        display: none;
+    }
 }
-@media screen and (max-width:600px){
-    body{
+
+@media screen and (max-width:600px) {
+    body {
         font-size: 12px;
     }
-    #mobilemenu{
+
+    #mobilemenu {
         display: inline;
     }
-    nav{
+
+    nav {
         display: inline;
     }
-    table, tbody, td, tr{
+
+    table,
+    tbody,
+    td,
+    tr {
         display: block;
     }
+
+    #about-form {
+        display: inline;
+        text-align: center;
+        margin-left: 0px;
+        width: 100%;
+        border-radius: 2px;
+    }
+
+    .grey {
+        display: none;
+    }
+
     /*aside#aside-bar{
         float: none;
         display: inline;

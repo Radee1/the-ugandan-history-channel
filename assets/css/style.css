@@ -207,6 +207,11 @@ ul#about li {
     display: none;
 }
 
+#about-form section {
+    background: #3a3a3a;
+    padding: 10px;
+}
+
 .subscribe input {
     width: 100%;
     padding: 10px;

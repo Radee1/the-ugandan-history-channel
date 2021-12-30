@@ -3,38 +3,61 @@ The Ugandan history channel is a website about the history of Uganda.
 
 TUHC is a website dedicated to keeping people educated about Uganda as a country, its people, the political climate, geographical climate, geographic regions, and economic climate in the past and present. The website will be aimed towards historians and students from Uganda and throughout the world. The general population in Uganda, as well as the rest of the globe, will benefit from the knowledge and usage of TUHC.
 
-* **Features**
+# Features
 1. **Navigation Bar**
-  The entire navigation bar is responsive and is included on all three pages. It provides links to the Home page, About page, and History page. It is the same on each page to facilitate easy navigation. 
-  o	This section allows users to simply go from page to page across all devices without having to use the ‘back’ button to return to the previous page.
+
+  * The entire navigation bar is responsive and is included on all three pages. It provides links to the Home page, About page, and History page. It is the same on each page to facilitate easy navigation. 
+  * This section allows users to simply go from page to page across all devices without having to use the ‘back’ button to return to the previous page.
+
+  ![The navigation bar](https://github.com/radee1/the-ugandan-history-channel/assets/images/navbar.png?raw=true)
+
+2. **The main Home Image**
+
+  * The main Home image comprises an attractive photograph of Kampala city with text overlay to help the viewer   understand what this site is about and where it will be useful.
+
+3. **The cases section**
+
+ * The case section will allow the user to see some of the history of Uganda starting with the Uganda crested crane and the Uganda independence monument.  The case section contains two attractive photos and links that should encourage the user to connect to the About page and History page for more information.
+
+4. **The footer**
+
+ * The footer section here includes the copyright information of TUHC.
+
+5. **The home**
+
+ * The home is the main page of the TUHC site. It contains the features mentioned above
+
+ 6. **The About Page**
+
+ * The About page will allow the user to learn facts and history of Uganda which is presented in different sections pertaining to the geographical location, the people and the economic activities.
+
+ * The About section will allow the user to subscribe to the TUHC to be a part of the Ugandan history community. The subscribe form in the About section will enable the user to access more information and get timely TUHC updates.
+
+ 7. **The History page**
+
+ * The history page section will allow the user to learn about the past and present history of Uganda.
+
+ 8. **The history search form**
+
+ * This section will allow the user to search for past and present facts and any history pertaining to Uganda. The section is linked to Google search to enable the user to acquire the information they are searching for.
+
+ 9. **Features left to implement**
+
+ * Link TUHC to social media platforms like Instagram and Facebook
 
 
 
-To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
 
-`python3 -m http.server`
 
-A blue button should appear to click: _Make Public_,
 
-Another blue button should appear to click: _Open Browser_.
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
 
-A blue button should appear to click: _Make Public_,
 
-Another blue button should appear to click: _Open Browser_.
 
-In Gitpod you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
 
-To log into the Heroku toolbelt CLI:
 
-1. Log in to your Heroku account and go to *Account Settings* in the menu under your avatar.
-2. Scroll down to the *API Key* and click *Reveal*
-3. Copy the key
-4. In Gitpod, from the terminal, run `heroku_config`
-5. Paste in your API key when asked
 
-You can now use the `heroku` CLI program - try running `heroku apps` to confirm it works. This API key is unique and private to you so do not share it. If you accidentally make it public then you can create a new one with _Regenerate API Key_.
+
 
 ------
 

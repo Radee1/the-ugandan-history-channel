@@ -9,7 +9,9 @@ TUHC is a website dedicated to keeping people educated about Uganda as a country
   * The entire navigation bar is responsive and is included on all three pages. It provides links to the Home page, About page, and History page. It is the same on each page to facilitate easy navigation. 
   * This section allows users to simply go from page to page across all devices without having to use the ‘back’ button to return to the previous page.
 
-  ![The navigation bar](https://github.com/radee1/the-ugandan-history-channel/assets/images/navbar.png?raw=true)
+  ![The navigation bar](https://github.com/Radee1/the-ugandan-history-channel/blob/main/assets/images/navbar.png "navigation bar")
+
+<img src="https://github.com/Radee1/the-ugandan-history-channel/blob/cfd2a66e95c908435b51d2baa8cb4f5f3b34781e/assets/images/navbar.png" alt="nav bar">
 
 2. **The main Home Image**
 

@@ -145,7 +145,7 @@ The site was deployed to GitHub pages. The steps to deploy are as follows:
  
  * The font-family applied in the CSS page and over all TUHC site was adopted from Google fonts- https://fonts.google.com/
 
- * Some CSS code inspired from Lecture slides and love running project.
+ * Some CSS code inspired from Lecture slides and love running project for things such as images, and zoom effects.
 
  2. **Media**
 

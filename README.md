@@ -89,14 +89,14 @@ TUHC is a website dedicated to keeping people educated about Uganda as a country
 
 * **Note:** For this project, two forms for the about page are created and each displays using a different view. One subscribe-form for the large screens and the other for the small device views.
 
-Why two forms?
+**Why two forms?**
 
-* *Unresolved bug:* the initial code had one subscribe-form for all the different views. However, during the code inspection and while checking the responsiveness of the site. The subscribe-form on the about page was overlapping the footer. The footer however remains static on the other pages and I failed to resolve this issue.
+* *Unresolved Challenge:* the initial code had one subscribe-form for all the different views. However, during the code inspection and while checking the responsiveness of the site. The subscribe-form on the about page was overlapping the footer on the about page. The footer however remains static on the Home and History pages, and I could not resolve this challenge no matter how I changed the code.
 
 ![overlapping sidebar for small view device](assets/images/Overlappingsidebar.png)
 
 
-* To meet the deadline of the milestone submission, the problem as seen in the screenshot is partially resolved (using the two forms above). 
+* For this project, the challenge as seen in the screenshot is partially resolved (using the two forms above). 
 
 * **Bug 2:** Hidden overflow in about page of the site.
 
@@ -111,6 +111,10 @@ No errors were returned when passing through the official W3C validator
 * CSS
 
 No errors were found when passing through the official (Jigsaw) validator
+
+### Unfixed Bugs
+
+All the errors are fixed, however, one warning on the about page is ignored during validation. The warning pertains to assigning the section a heading. The warning is ignored because the section in question already has several headings within it.
 
 ## Deployment
 ------
@@ -137,6 +141,8 @@ The site was deployed to GitHub pages. The steps to deploy are as follows:
 
  * Text on the about page and history page was taken from- https://visituganda.com/explore/category/history-of-uganda and https://www.britannica.com/summary/Uganda
 
+ * Text on the history page was taken from BBC news-https://www.bbc.com/news/world-africa-14112446
+ 
  * The font-family applied in the CSS page and over all TUHC site was adopted from Google fonts- https://fonts.google.com/
 
  * Some CSS code inspired from Lecture slides and love running project.

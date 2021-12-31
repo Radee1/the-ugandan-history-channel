@@ -112,6 +112,10 @@ No errors were returned when passing through the official W3C validator
 
 No errors were found when passing through the official (Jigsaw) validator
 
+* Accessibility
+
+![Accessibility](assets/images/accessibility.PNG)
+
 ### Unfixed Bugs
 
 All the errors are fixed, however, one warning on the about page is ignored during validation. The warning pertains to assigning the section a heading. The warning is ignored because the section in question already has several headings within it.

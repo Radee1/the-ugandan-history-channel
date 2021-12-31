@@ -59,75 +59,49 @@ TUHC is a website dedicated to keeping people educated about Uganda as a country
 
  * Link TUHC to social media platforms like Instagram and Facebook
 
+## Testing
 
+1. **The functionality of the site**
 
+* TUHC site consists of features three pages namely: the Home page, About page, and History page. TUHC site has a navigation bar that runs across all the pages of the site for easy navigation. 
 
+* The navigation bar has an active menu. When a user opens the TUHC site, they will navigate from page to page using this feature. Also, the color of the active menu items is white whereas the inactive pages remain colored yellow. The white color shows the user which page they are on.
 
+* The Home page contains two links in the case section. The first link allows the user to connect or link to the About page from the home page and the second link allows the user to go straight to the history page from the home page.
 
+* TUHC site has a form on the about page to encourage users to subscribe. The users will be able to enter their names, emails, and passwords and thereafter subscribe to be part of the Ugandan history community and use that subscription to get new updates from TUHC.
 
+* The history page of TUHC also contains a search form. The ‘search our history’ section will allow the user to search for any piece of history about Uganda. This search form when clicked by a user opens up in a new tab linked to the google search page.
 
+* I have tested the functionality through code inspection and am happy to report that the TUHC site features function as intended.
 
+2. **Responsiveness**
 
+* TUHC site is responsive to different media devices. Media queries are set for different device views with a maximum width of 770 pixels and 600 pixels or below. 
 
+* I have tested the responsiveness of the TUHC site and therefore, I am happy to report that through code inspection, the TUHC site responds well to different device views.
 
+3. **Bugs and fixes**
 
+* **Bug 1:** Aside element on the about page going below the footer in small device views.
 
+* *FIX 1:* Hiding the element in small device views and displaying a fitting form using media queries. The fix. also includes hiding the created form on large displays.
 
-------
+* **Note:** For this project, two forms for the about page are created and each displays using a different view. One subscribe-form for the large screens and the other for the small device views.
 
-## Release History
+Why two forms?
 
-We continually tweak and adjust this template to help give you the best experience. Here is the version history:
+* *Unresolved bug:* the initial code had one subscribe-form for all the different views. However, during the code inspection and while checking the responsiveness of the site. The subscribe-form on the about page was overlapping the footer. The footer however remains static on the other pages and I failed to resolve this issue.
 
-**September 1 2021:** Remove `PGHOSTADDR` environment variable.
+![overlapping sidebar for small view device]()
 
-**July 19 2021:** Remove `font_fix` script now that the terminal font issue is fixed.
+* To meet the deadline of the milestone submission, the problem as seen in the screenshot is partially resolved (using the two forms above). 
 
-**July 2 2021:** Remove extensions that are not available in Open VSX.
+* **Bug 2:** Hidden overflow in about page of the site.
 
-**June 30 2021:** Combined the P4 and P5 templates into one file, added the uptime script. See the FAQ at the end of this file.
-
-**June 10 2021:** Added: `font_fix` script and alias to fix the Terminal font issue
-
-**May 10 2021:** Added `heroku_config` script to allow Heroku API key to be stored as an environment variable.
-
-**April 7 2021:** Upgraded the template for VS Code instead of Theia.
-
-**October 21 2020:** Versions of the HTMLHint, Prettier, Bootstrap4 CDN and Auto Close extensions updated. The Python extension needs to stay the same version for now.
-
-**October 08 2020:** Additional large Gitpod files (`core.mongo*` and `core.python*`) are now hidden in the Explorer, and have been added to the `.gitignore` by default.
-
-**September 22 2020:** Gitpod occasionally creates large `core.Microsoft` files. These are now hidden in the Explorer. A `.gitignore` file has been created to make sure these files will not be committed, along with other common files.
-
-**April 16 2020:** The template now automatically installs MySQL instead of relying on the Gitpod MySQL image. The message about a Python linter not being installed has been dealt with, and the set-up files are now hidden in the Gitpod file explorer.
-
-**April 13 2020:** Added the _Prettier_ code beautifier extension instead of the code formatter built-in to Gitpod.
-
-**February 2020:** The initialisation files now _do not_ auto-delete. They will remain in your project. You can safely ignore them. They just make sure that your workspace is configured correctly each time you open it. It will also prevent the Gitpod configuration popup from appearing.
-
-**December 2019:** Added Eventyret's Bootstrap 4 extension. Type `!bscdn` in a HTML file to add the Bootstrap boilerplate. Check out the <a href="https://github.com/Eventyret/vscode-bcdn" target="_blank">README.md file at the official repo</a> for more options.
+* *FIX 2:* Removing the hidden overflow for the parent class of the overflowing article by changing giving the overflow property a value of auto.
 
 ------
-
-## FAQ about the uptime script
-
-**Why have you added this script?**
-
-It will help us to calculate how many running workspaces there are at any one time, which greatly helps us with cost and capacity planning. It will help us decide on the future direction of our cloud-based IDE strategy.
-
-**How will this affect me?**
-
-For everyday usage of Gitpod, it doesn’t have any effect at all. The script only captures the following data:
-
-- An ID that is randomly generated each time the workspace is started.
-- The current date and time
-- The workspace status of “started” or “running”, which is sent every 5 minutes.
-
-It is not possible for us or anyone else to trace the random ID back to an individual, and no personal data is being captured. It will not slow down the workspace or affect your work.
-
-**So….?**
-
-We want to tell you this so that we are being completely transparent about the data we collect and what we do with it.
 
 
 

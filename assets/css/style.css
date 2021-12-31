@@ -229,10 +229,15 @@ ul#about li {
 
 .submit1 {
     width: 50px;
-    background: orangered;
+    background: #f1c40f;
     color: #fff;
     padding: 20px 20px;
 
+}
+
+.subscribe1 .submit1:hover {
+    color: #3a3a3a;
+    font-weight: bold;
 }
 
 footer {

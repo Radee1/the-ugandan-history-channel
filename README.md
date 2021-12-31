@@ -27,9 +27,13 @@ TUHC is a website dedicated to keeping people educated about Uganda as a country
 
  * The footer section here includes the copyright information of TUHC.
 
+ ![footer](assets/images/footer.png)
+
 5. **The home**
 
  * The home is the main page of the TUHC site. It contains the features mentioned above
+
+ ![the whole home page](assets/images/Home.png)
 
  6. **The About Page**
 
@@ -37,13 +41,19 @@ TUHC is a website dedicated to keeping people educated about Uganda as a country
 
  * The About section will allow the user to subscribe to the TUHC to be a part of the Ugandan history community. The subscribe form in the About section will enable the user to access more information and get timely TUHC updates.
 
+ ![the about page](assets/images/AboutPage.png)
+
  7. **The History page**
 
  * The history page section will allow the user to learn about the past and present history of Uganda.
 
+ ![the history page](assets/images/HistoryPage.png)
+
  8. **The history search form**
 
  * This section will allow the user to search for past and present facts and any history pertaining to Uganda. The section is linked to Google search to enable the user to acquire the information they are searching for.
+
+ ![The search form](assets/images/searchform.png)
 
  9. **Features left to implement**
 

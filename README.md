@@ -60,7 +60,7 @@ TUHC is a website dedicated to keeping people educated about Uganda as a country
  * Link TUHC to social media platforms like Instagram and Facebook
 
 ## Testing
-
+-----------
 1. **The functionality of the site**
 
 * TUHC site consists of features three pages namely: the Home page, About page, and History page. TUHC site has a navigation bar that runs across all the pages of the site for easy navigation. 
@@ -93,7 +93,8 @@ Why two forms?
 
 * *Unresolved bug:* the initial code had one subscribe-form for all the different views. However, during the code inspection and while checking the responsiveness of the site. The subscribe-form on the about page was overlapping the footer. The footer however remains static on the other pages and I failed to resolve this issue.
 
-![overlapping sidebar for small view device]()
+![overlapping sidebar for small view device](assets/images/Overlappingsidebar.png)
+
 
 * To meet the deadline of the milestone submission, the problem as seen in the screenshot is partially resolved (using the two forms above). 
 
@@ -101,15 +102,59 @@ Why two forms?
 
 * *FIX 2:* Removing the hidden overflow for the parent class of the overflowing article by changing giving the overflow property a value of auto.
 
+### Validator Testing
+
+* HTML
+
+No errors were returned when passing through the official W3C validator
+
+* CSS
+
+No errors were found when passing through the official (Jigsaw) validator
+
+## Deployment
 ------
+The site was deployed to GitHub pages. The steps to deploy are as follows:
+
+* In the GitHub repository, navigate to the Settings tab
+
+* From the source section drop-down menu, select the Master Branch
+
+* Once the master branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment.
+
+* The live link can be found here -https://radee1.github.io/the-ugandan-history-channel/
+
+## Credits
+--------
+
+1. **Content**
+
+ * The text for the Home page about the independence monument was taken from Lakato safaris https://www.lakatosafaris.com/the-independence-monument/
+
+ * Text for the home page about the Uganda national emblem was taken from- https://berlin.mofa.go.ug/data-dnews-24-THE-CRESTED-CRANE---UGANDA'S-NATIONAL-EMBLEM.html
+
+ * Text about the economic activity in the about page was taken from- https://www.peacecorps.gov/educators/resources/cuisine-and-etiquette-uganda/
+
+ * Text on the about page and history page was taken from- https://visituganda.com/explore/category/history-of-uganda and https://www.britannica.com/summary/Uganda
+
+ * The font-family applied in the CSS page and over all TUHC site was adopted from Google fonts- https://fonts.google.com/
+
+ * Some CSS code inspired from Lecture slides and love running project.
+
+ 2. **Media**
+
+ * The photos used on the home, about and history page are from this open-source site- https://commons.wikimedia.org/wiki/File:Uganda_Independence_Monument.jpg
+
+ * https://berlin.mofa.go.ug/data-dnews-24-THE-CRESTED-CRANE---UGANDA%27S-NATIONAL-EMBLEM.html
+
+ * Pixabay-https://pixabay.com/images/search/uganda/
+
+ * Google free image downloads.
 
 
 
-```
-
-```
 
 
----
+
 
 

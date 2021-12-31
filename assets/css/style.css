@@ -158,7 +158,6 @@ header a:hover {
 
 #cases p {
     color: #3a3a3a;
-    text-emphasis: bold;
     position: relative;
 }
 
@@ -257,12 +256,12 @@ footer {
 }
 
 #history-main h1 {
-    text-align: left center;
+    text-align: left;
 }
 
 #history-form {
     margin: 0;
-    padding: 2;
+    padding: 2px;
     border-radius: 2px;
     background: #3a3a3a;
 }
